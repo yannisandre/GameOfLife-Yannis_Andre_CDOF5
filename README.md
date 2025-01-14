@@ -10,4 +10,7 @@ This repo contains a reproduction of the famous game of life by conway coded in 
 - go into the repo : (cd repo)
 - to execute the code : python3 game_of_life.py
 
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
 
