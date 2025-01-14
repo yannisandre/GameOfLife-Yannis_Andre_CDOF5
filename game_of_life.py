@@ -22,7 +22,7 @@ def count_neighbors(grid, row, col):
     count = 0
     for dr, dc in directions:
         r, c = row + dr, col + dc
-        if 0 <= r < rows and 0 <= c < cols:
+        if 0 <= r < rows and 0 <= c < cols and (r != row or c != col):
             count += grid[r][c]
     return count
 
